@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 /* Design token */
-
 :root {
   --color-bg: #000000;
   --color-surface: #1f1f1f;
@@ -86,7 +85,6 @@ p {
 
 /* Tablet */
 @media (min-width: 768px) {
-
   h1 {
     font-size: 46px;
   }
@@ -98,12 +96,10 @@ p {
   h3 {
     font-size: 28px;
   }
-
 }
 
 /* Desktop */
 @media (min-width: 1024px) {
-
   h1 {
     font-size: 52px;
   }
@@ -115,5 +111,4 @@ p {
   h3 {
     font-size: 32px;
   }
-
 }
