@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+/* Design token */
+
+:root {
+  --color-bg: #000000;
+  --color-surface: #1f1f1f;
+  --color-primary: #e4100f;
+  --color-primary-dark: #c3110c;
+
+  --color-text: #ffffff;
+  --color-muted: #b5b5b5;
+}
+
+/* Base for the webplatform */
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Typograhy */
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Container */
+.page-container {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Buttons */
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+  padding: 10px 22px;
+  border-radius: 30px;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background: var(--color-primary-dark);
+}
+
+.btn-secondary {
+  background: white;
+  color: black;
+  padding: 10px 22px;
+  border-radius: 30px;
+}
+
+.btn-secondary:hover {
+  background: #e5e5e5;
+}
+
+/* Input */
+.input-field {
+  width: 100%;
+  background: white;
+  color: black;
+  padding: 10px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+
+  h1 {
+    font-size: 52px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+}
