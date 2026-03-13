@@ -8,7 +8,7 @@ The application integrates with the TMDB (The Movie Database) API to fetch movie
 - Link to the MovieCritic backend-repo: [Backend-repo](https://github.com/SaraM47/moviecritic-backend) 
 
 ## Features
-### Movie Search
+### Movie search
 
 Users can search for movies through a search interface powered by the TMDB API.
 
@@ -18,7 +18,7 @@ Features include:
 - view list of search results
 - browse movie posters and metadata
 
-### Movie Details
+### Movie details
 
 Each movie has its own detailed page showing:
 
@@ -28,7 +28,7 @@ Each movie has its own detailed page showing:
 - reviews written by users
 Users can read full reviews through a modal interface.
 
-### User Authentication
+### User authentication
 
 The platform includes a complete authentication system.
 
@@ -41,13 +41,13 @@ Users can:
 
 Authentication is required to create or manage reviews.
 
-### Review System (CRUD)
+### Review system (CRUD)
 
 Logged-in users can manage their own reviews.
 
 Supported operations:
 
-* Create review - write a review for any movie.
+* Create a review - write a review for any movie.
 
 * Read reviews - all visitors can read reviews written by users.
 
@@ -59,7 +59,7 @@ Each review contains:
 
 review id, movie id, user id, review title, rating (1-10), review text and creation date
 
-### User Profile
+### User profile
 
 Users have a personal profile page where they can:
 
@@ -68,7 +68,7 @@ Users have a personal profile page where they can:
 - delete reviews
 - navigate back to the movie they reviewed
 
-## Technical Stack
+## Technical stack
 - React
 - TypeScript
 - Redux Toolkit (state management)
@@ -80,7 +80,7 @@ Users have a personal profile page where they can:
 ## Exernal API
 The application integrates with TMDB API which is used for movie details, search, poster images and metadata.
 
-## State Management
+## State management
 The application uses Redux Toolkit for state management.
 
 Slices used:
@@ -170,7 +170,7 @@ The platform could be extended with additional features such as:
 
 - Bookmark or watchlist that could allow users to save movies to a personal list.
 
-## Running the Project
+## Running the project
 1. Clone the repository
 ```sh
 git clone https://github.com/SaraM47/moviecritic-frontend.git 
