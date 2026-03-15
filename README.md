@@ -8,7 +8,7 @@ The application integrates with the TMDB (The Movie Database) API to fetch movie
 - Link to the MovieCritic backend-repo: [Backend-repo](https://github.com/SaraM47/moviecritic-backend) 
 
 ## Features
-### Movie Search
+### Movie search
 
 Users can search for movies through a search interface powered by the TMDB API.
 
@@ -18,7 +18,7 @@ Features include:
 - view list of search results
 - browse movie posters and metadata
 
-### Movie Details
+### Movie details
 
 Each movie has its own detailed page showing:
 
@@ -28,7 +28,7 @@ Each movie has its own detailed page showing:
 - reviews written by users
 Users can read full reviews through a modal interface.
 
-### User Authentication
+### User authentication
 
 The platform includes a complete authentication system.
 
@@ -41,7 +41,7 @@ Users can:
 
 Authentication is required to create or manage reviews.
 
-### Review System (CRUD)
+### Review system (CRUD)
 
 Logged-in users can manage their own reviews.
 
@@ -59,7 +59,7 @@ Each review contains:
 
 review id, movie id, user id, review title, rating (1-10), review text and creation date
 
-### User Profile
+### User profile
 
 Users have a personal profile page where they can:
 
@@ -68,7 +68,7 @@ Users have a personal profile page where they can:
 - delete reviews
 - navigate back to the movie they reviewed
 
-## Technical Stack
+## Technical stack
 - React
 - TypeScript
 - Redux Toolkit (state management)
@@ -80,7 +80,7 @@ Users have a personal profile page where they can:
 ## Exernal API
 The application integrates with TMDB API which is used for movie details, search, poster images and metadata.
 
-## State Management
+## State management
 The application uses Redux Toolkit for state management.
 
 Slices used:
@@ -93,23 +93,6 @@ Handles CRUD operations for reviews.
 
 * Auth slice
 Handles authentication state and user session.
-
-## Authentication
-
-Authentication uses JWT tokens.
-
-Flow:
-
-* User registers or logs in
-
-* Backend generates JWT token
-
-* Token is stored in localStorage
-
-* Requests include Authorization header
-
-* Protected endpoints require authentication middleware
-
 
 ## Architectural layers
 
@@ -127,7 +110,7 @@ The components folder contains reusable UI components that render visual element
 
 The ui folder contains smaller reusable interface elements that are used throughout the application. Components such as Button, Input, Modal, Spinner, SkeletonMovieGrid and ErrorBox help maintain a consistent design system and reduce duplicated code across pages and features.
 
-4. Features (State Management)
+4. Features (State management)
 
 The features folder contains the Redux slices that manage the global application state. Each feature defines its state structure, asynchronous actions and reducers. Examples include authSlice, moviesSlice and reviewsSlice, which manage authentication, movie data retrieved from the TMDB API and user review data.
 
@@ -170,7 +153,7 @@ The platform could be extended with additional features such as:
 
 - Bookmark or watchlist that could allow users to save movies to a personal list.
 
-## Running the Project
+## Running the project
 1. Clone the repository
 ```sh
 git clone https://github.com/SaraM47/moviecritic-frontend.git 
