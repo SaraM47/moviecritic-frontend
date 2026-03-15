@@ -47,7 +47,7 @@ Logged-in users can manage their own reviews.
 
 Supported operations:
 
-* Create review - write a review for any movie.
+* Create a review - write a review for any movie.
 
 * Read reviews - all visitors can read reviews written by users.
 
