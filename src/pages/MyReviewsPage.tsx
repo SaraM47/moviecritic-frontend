@@ -119,7 +119,7 @@ export default function MyReviewsPage() {
                         navigate(`/movie/${review.movieId}?edit=${review._id}`)
                       }
                       variant="secondary"
-                      className="rounded-full bg-neutral-200 px-5 py-2 text-black hover:bg-white"
+                      className="rounded-full bg-neutral-200 px-5 py-2 text-black"
                     >
                       Edit
                     </Button>
@@ -127,7 +127,7 @@ export default function MyReviewsPage() {
                     <Button
                       onClick={() => dispatch(deleteReviewThunk(review._id))}
                       variant="danger"
-                      className="rounded-full bg-neutral-200 px-5 py-2 text-black hover:bg-white"
+                      className="rounded-full bg-neutral-200 px-5 py-2 text-black"
                     >
                       Delete
                     </Button>
